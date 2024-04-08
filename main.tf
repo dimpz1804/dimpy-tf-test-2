@@ -10,7 +10,7 @@ data "tfe_organization" "organization" {
   name  = "dimpy_test"
 }
 
-resource "tfe_project" "test12" {
+resource "tfe_project" "test34" {
   organization = data.tfe_organization.organization.name
   name = "projectname34"
 }
