@@ -7,5 +7,5 @@ terraform {
 }
 
 provider tfe {
-token = "MyADFR0sfjYXQQ.atlasv1.Yxhr9s607CzjwBDbADyBLDrBgUxEAj5XNpKLy7TZYH0dMJVSlvl0jJsk5BqoslpqjxQ"
+token = "l8JOtrrOPy8hHA.atlasv1.X5Cl5KAqB0Xdld0USXr1uHu7kmSrEfP0u8jCz1I3pmi8zdYC2guUzAYKYoiPKtqRaPg"
 }
