@@ -7,10 +7,12 @@
 # }
 variable "tfe_token"{}
 data "tfe_organization" "organization" {
+  provider = tfe.tfe-pro
   name  = "dimpy_test"
 }
 
 resource "tfe_project" "test34" {
+  provider = tfe.tfe-pro
   organization = data.tfe_organization.organization.name
   name = "projectname34"
 }
