@@ -7,5 +7,6 @@ terraform {
 }
 
 provider tfe {
+alias = "tfe-pro"
 token = var.tfe_token
 }
