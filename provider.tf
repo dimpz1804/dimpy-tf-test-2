@@ -6,4 +6,6 @@ terraform {
   }
 }
 
-provider tfe {}
+provider tfe {
+token = var.TF_TOKEN_app_terraform_io
+}
